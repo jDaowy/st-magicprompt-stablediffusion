@@ -4,7 +4,7 @@ import streamlit as st
 
 hub_llm = HuggingFaceHub(
     repo_id="Gustavosta/MagicPrompt-Stable-Diffusion",
-    model_kwargs={'max_length':200},
+    model_kwargs={'max_length':500},
     huggingfacehub_api_token = st.secrets["apikey"]
     )
 
